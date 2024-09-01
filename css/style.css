@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+
+*{
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.pColor{
+    color: #667085;
+}
+.bgColor{
+    background: #101828;
+}
+
+.bg-body-tertiary{
+    background: #101828 !important;
+    padding: 8px;
+}
+.nav-item a{
+    color: white !important;
+}
+
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu a{
+    color: black !important;
+}
+.dropdown-menu{
+    font-size: 14px;
+    height: 146px;
+    width: 161px;
+}
+
+.fa-solid{
+    margin: 0px 10px;
+    padding: 10px;
+    color: #ccc;
+    border-radius: 5px;
+    background: #667085;
+}
+.background{
+    border-radius: 5px;
+    padding: 7px 15px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background: #ED1B23;
+}
+.navbar-nav>li{
+    margin-left: 10px;
+}
+
+.bannerBackground{
+    background: linear-gradient(261.99deg, #ffe3dd 2.82%, #fff8da 17.1%, rgba(255, 249, 221, 0) 31.78%, hsla(0, 100%, 90%, .04) 50.27%, rgba(255, 249, 221, .35) 67.28%, #ffeee9 77.89%, rgba(255, 238, 233, .14) 91.09%);;
+}
+#bannerSlider button{
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 50% !important;
+}
+.active{
+    background: #101828;
+}
+
+form{
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    background: #101828;
+}
+form p{
+    margin: 10px 20px;
+    font-size: 16px;
+    color: #667085;
+}
+form>input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.form-select{
+    padding: 12px ;
+}
+form>button{
+    margin: 20px 0px 10px 0px;
+    width: 100%;
+    padding: 12px;
+    background: #ED1B23;
+    border:  none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.bottonBorder{
+    margin-top: 20px;
+    transition: .5s;
+    position: relative;
+}
+.bottonBorder::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: #ED1B23;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transition: .5s;
+}
+.bottonBorder:hover::after{
+    width: 100%;
+    left: 0px;
+}
+.bottonBorder:hover{
+    margin-top: 0px;
+}
+.bottonBorder:hover p{
+    color: #ED1B23;
+}
+.overlaGrident{
+    height: 420px;
+    transition:linear 5s;
+    overflow: hidden;
+    background: linear-gradient(106.78deg, #ffefab 10.51%, #f1c4c4 80.72%);
+}
+.InnerSection{
+    margin-top: 120px;
+    margin-bottom: 25px;
+    transition: .5s;
+}
+.InnerSection>ul{
+    margin: 10px 0px ;
+    padding: 0px !important;
+    display: flex;
+    flex-basis: auto;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.InnerSection>ul>li{
+    text-align: center;
+    width: 80px;
+    padding: 4px 0px;
+    background: white;
+    border-radius: 5px;
+    color:#667085;
+    transition: .5s;
+}
+.overlaGrident>h2{
+    transition: linear .5s;
+    font-family: "Train One", system-ui;
+}
+.overlaGrident:hover{
+    background: url("https://www.lawpreptutorial.com/images/courses/courses-card-bg.webp") left center;
+    background-size: cover;
+}
+.overlaGrident:hover .InnerSection{
+    margin-top: 100px;
+}
+.overlaGrident:hover h2{
+    font-size: 40px ;
+    transition: .4s;
+    opacity: 0;
+
+}
+.InnerSection>ul>li:hover{
+    background: #ED1B23;
+    color: white;
+}
+.outer{
+    padding: 100px 0px;
+    background: url(https://www.lawpreptutorial.com/images/learner/learners-bg.webp
+    ) center;
+}
+#Second .active {
+    background: none;
+}
